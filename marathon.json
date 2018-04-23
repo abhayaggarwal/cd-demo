@@ -1,0 +1,29 @@
+{
+  "id": "test-marathon-demo",
+  "cmd": null,
+  "cpus": 1,
+  "mem": 2048,
+  "disk": 0,
+  "instances": 1,
+  "container": {
+    "docker": {
+      "forcePullImage": true,
+      "network": "HOST",
+      "parameters": [],
+      "image": "aaggarwa/maratho-demo"
+    },
+    "type": "DOCKER",
+    "volumes": []
+  },
+  "portDefinitions": [
+    {
+      "port": 0,
+      "protocol": "tcp",
+      "name": null,
+      "labels": null
+    }
+  ],
+  "env": {},
+  "labels": {},
+  "healthChecks": []
+}
